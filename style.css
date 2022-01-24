@@ -1,0 +1,28 @@
+
+body{
+    background-color: #CCCCCC;
+}
+
+#title{
+    text-align: center;
+}
+
+#title_text{
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#play{
+    background-color: green;
+    border: solid;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: large;
+}
+
+#nickname{
+    height: 42px;
+    border: solid;
+
+}
