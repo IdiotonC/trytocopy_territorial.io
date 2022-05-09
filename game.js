@@ -55,7 +55,7 @@ class Cactus{
     /* draw_again(i){
         ctx.fillStyle = botcolor[i];
         ctx.fillRect(this.x,this.y,this.width,this.height);
-    }*/ //개같이 멸망 왜 안될까요 ~ 
+    }*/ 안되서 주석처리  
 
 } //아마 봇으로 이용할듯 , 봇 생성 클래스
 
@@ -71,7 +71,7 @@ function gamestart(){
         var cactus = new Cactus();
         cactus.draw();
         botlimits.push(cactus); 
-        //  botcolor.push(cactus.fillStyle); 봇 색 저장이 안먹음 시발것 
+        //  botcolor.push(cactus.fillStyle); 봇 색 저장이 안먹음
     } //난수로 봇들 생성하고 배열에 저장 
     botlimits.forEach((a,i,o)=>{
         if(a.x < 0 || a.x >1920 || a.y <0 || a.y>1080){
@@ -120,4 +120,4 @@ function crash(a,b,c){
         botstop[c] = a;
         return 0;
     }
-}//충돌확인  -> 여기가 젤 문제 로직은 괜찮은데 충돌 후에 어떻게 할 것인지 ;; 충돌 후를 구현했는데 시벌 이러시면 안되죠 ㅋㅋㅋㅋㅋㅋㅋ하 
+}//충돌확인  -> 여기가 젤 문제 로직은 괜찮은데 충돌 후에 어떻게 할 것인지 ;;
